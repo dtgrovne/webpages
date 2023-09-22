@@ -1,0 +1,22 @@
+/*
+ *Name: D'Ante Grovner
+ *UnityID: dtgrovne
+ *Date: 9/21/23
+ *Assignment: Guided Lab 4
+ *Description: Guided Lab Assignment, about me webpage
+--> 
+ */
+ <html xmins="http://www.w3.org/1999/xhtml">
+ <head>
+	<meta charset="UTF-8" />
+	<link href="webpageGL.css" rel="stylesheet" type="text/css" />
+	<title>About D'Ante Grovner</title>
+</head>
+
+<body>{
+<!-- Here is our welocme message -->
+
+<h2>Welcome to my about me page!</h2>
+<p>This is a paragraph tag</p>
+</body>
+</html>}
