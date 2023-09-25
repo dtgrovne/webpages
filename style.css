@@ -1,19 +1,51 @@
 /*
- *Name: [First Last]
- *UnityID: [unityID]
- *Date: [Date Completed]
- *Assignment: [Assignment Name]
- *Description: [Assignment Description]
- */
- 
+ *Name: D'Ante Grovner
+ *UnityID: dtgrovne
+ *Date: 9/24/23
+ *Assignment: Independent Assignment 4 (HTML and Styling)
+ *Description: HTML and Styling
+ */CSS for My Personal Webpage */
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+h1 {
+    color: #336699;
+}
+
 p {
-    property: value;
+    font-size: 16px;
+    line-height: 1.5;
 }
 
-.class {
-    property: value;
+hr {
+    border: 1px solid #ccc;
 }
 
-#id {
-    property:value;
+img {
+    max-width: 100%;
+    height: auto;
+    border: 2px solid #336699;
+}
+
+ol {
+    list-style-type: decimal;
+    padding-left: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #336699;
+    color: white;
 }
