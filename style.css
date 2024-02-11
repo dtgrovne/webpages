@@ -4,48 +4,52 @@
  *Date: 9/24/23
  *Assignment: Independent Assignment 4 (HTML and Styling)
  *Description: HTML and Styling
- */CSS for My Personal Webpage */
-body {
-    font-family: Arial, sans-serif;
-    margin: 20px;
-}
+ */
 
-h1 {
-    color: #336699;
-}
+/* CSS for My Personal Webpage */
 
+/* Paragraph Styling */
 p {
     font-size: 16px;
     line-height: 1.5;
 }
 
-hr {
-    border: 1px solid #ccc;
+/* Separate instances of bold, underlined, and italic text */
+p strong {
+    font-weight: bold;
 }
 
-img {
-    max-width: 100%;
-    height: auto;
+p em {
+    font-style: italic;
+}
+
+p span {
+    text-decoration: underline;
+}
+
+/* Inline Styling for Second Paragraph */
+p:nth-of-type(2) {
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+    color: #336699;
+    text-align: center;
+}
+
+/* Selector Components */
+
+/* Background Color */
+body {
+    background-color: #f0f0f0;
+}
+
+/* Border around Table */
+table {
     border: 2px solid #336699;
 }
 
-ol {
-    list-style-type: decimal;
-    padding-left: 20px;
-}
-
-table {
-    width: 100%;
-    border-collapse: collapse;
-}
-
-th, td {
-    border: 1px solid #ccc;
-    padding: 10px;
-    text-align: left;
-}
-
-th {
-    background-color: #336699;
-    color: white;
+/* Image Styling */
+img {
+    border: 2px outset green;
+    width: 200px;
+    height: 250px;
 }
